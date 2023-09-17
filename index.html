@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section class="User-Dob">
+            <div class="container">
+                <label id="dayLabel" for="day">day</label>
+                <input id="day" name="day" placeholder="Day">
+            </div>
+            <div class="container">
+                <label for="month">month</label>
+                <input id="month" name="month" placeholder="Month">
+            </div>
+            <div class="container">
+                <label for="year">year</label>
+                <input id="year" name="year" placeholder="Year">
+            </div>
+        </section>
+        <div class="clearLine-div">
+            <div class="clearLine"></div>
+            <div class="btn"><p>&#x2193;</p></div>
+        </div>
+        <h2><span id="current-day-age">--</span>Day</h2>
+        <h2><span id="current-month-age">--</span>Month</h2>
+        <h2><span id="current-year-age">--</span>Year</h2>
+    </main>
+</body>
+<script src="./script.js"></script>
+</html>

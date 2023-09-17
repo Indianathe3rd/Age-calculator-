@@ -1,0 +1,132 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --size: 3rem;
+    --width: 5rem;
+    --gray: rgb(108, 108, 108);
+    --lightgray: lightgray;
+
+
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+
+main{
+    max-width: 30em;
+    height: 25em;
+    background-color: white;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 2rem 2rem 6rem 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    -webkit-user-select: none;
+
+    font-family: 'Rubik', sans-serif;
+}
+
+.User-Dob{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+label{
+    color: var(--gray);
+    font-weight: 600;
+    font-size: .9rem;
+    padding: 1rem 0;
+    margin: .2rem 0;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+.container{
+    display: block;
+    width: var(--width);
+    height: var(--size);
+    margin: .3rem 0;
+}
+
+input{
+    width: var(--width);
+    height: var(--size);
+    border-radius: .4rem;
+    border: 1px solid var(--lightgray);
+    padding: 1rem;
+    font-size: large;
+    font-weight: 700;
+   
+}
+
+::placeholder {
+    text-align: center; 
+    color: var(--gray);
+    font-size: large;
+    font-weight: 700;
+ }
+ 
+ /* or, for legacy browsers */
+ 
+ ::-webkit-input-placeholder {
+    text-align: center;
+ }
+
+ .clearLine-div{
+    display: flex;
+    
+ }
+ .clearLine{
+    width: 80%;
+    height: 1px;
+    background-color: var(--lightgray);
+    margin: 1.5rem 0;
+    
+ }
+
+ .btn{
+    width: var(--size);
+    height: var(--size);
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 1.5rem;
+    display: grid;
+    place-items: center;
+ }
+
+
+ h2{
+    font-size: 4rem;
+    line-height: .9rem;
+    transform: translateY(-80%);
+    font-style: italic;
+ }
+
+ h2:last-child{
+    margin-bottom: 1rem;
+    text-emphasis: italic;
+ }
+
+ span{
+    color: blueviolet;
+    margin: 0 .6rem;
+ }
+ 
+ .incorrect{
+    font-size: .6rem;
+    font-weight: 100;
+    margin: .6rem 0;
+    font-style: italic;
+ }
